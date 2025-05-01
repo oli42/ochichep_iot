@@ -8,6 +8,6 @@ spec:
     app: playground
   ports:
     - protocol: TCP
-      port: 80
-      targetPort: 80
+      port: 8888
+      targetPort: 8888
   type: LoadBalancer
